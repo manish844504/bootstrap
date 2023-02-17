@@ -1,0 +1,691 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Boot One</title>
+  </head>
+  <body>
+    
+<!--navbar-->
+<!--<div class="row justify-content-evenly">-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+  <a class="navbar-brand" href="#">iCoder</a></div>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="images/pexels-photo-1337386.jpeg" width="180px;" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#Client">Client</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-primary" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#services">Web development</a></li>
+              <li><a class="dropdown-item" href="#services">App development</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#services">Seo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#Contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#FAQ">FAQ</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--slider-->
+  
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/bg03.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to iCoder</h5>
+            <p>Technology news, Development and Trends</p>
+            <button class="btn-danger">Technology</button>
+            <button class="btn-primary">Web Development</button>
+            <button class="btn-success">Tech Fun</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/bg02.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to iCoder</h5>
+            <p>Technology news, Development and Trends</p>
+            <button class="btn-danger">Technology</button>
+            <button class="btn-primary">Web Development</button>
+            <button class="btn-success">Tech Fun</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/bg01.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to iCoder</h5>
+            <p>Technology news, Development and Trends</p>
+            <button class="btn-danger">Technology</button>
+            <button class="btn-primary">Web Development</button>
+            <button class="btn-success">Tech Fun</button>
+            </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+
+    <div class="container my-4"></div>
+    <div class="row justify-content-evenly">
+      <div class="col-md-3 text-center">
+        <section id="services" class="services"></section>
+    <!--<div class="row">
+      <div class="col-lg-4">-->
+        <img class="rounded-circle" src="img/bg11.png" alt="Generic placeholder image" width="140" height="140">
+        <h2>Web Development</h2>
+        <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-md-3 text-center">
+        <div class="col-md-3 text-center"></div>
+        <section id="services" class="services"></section>
+        <img class="rounded-circle" src="img/bgn.png" alt="Generic placeholder image" width="140" height="140">
+        <h2>App Development</h2>
+        <p>Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-md-3 text-center">
+        <section id="services" class="services"></section>
+        <img class="rounded-circle" src="img/bgn1.png" alt="Generic placeholder image" width="140" height="140">
+        <h2>Seo</h2>
+        <p>Search engines such as Google and Bing use bots to crawl pages on the web, going from site to site, collecting information about those pages and putting them in an index. Think of the index like a giant library where a librarian can pull up a book (or a web page) to help you find exactly what you’re looking for at the time.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+
+
+   <!--tagline-->
+   <div class="row">
+    <div class="col-12">
+        <h3 class="display-6 text-center mt-5 mb-5">Documentation and examples for Bootstrap typography, including global settings, headings, body text, lists, and more.</h3>
+    </div>
+   </div>
+
+
+   <!--feature-->
+
+
+   <div class="row justify-content-evenly">
+    <section id="Client" class="Client"></section>
+       <div class="col-md-3 text-center">
+        
+        <h1><i class="bi bi-file-code-fill text-primary"></i></h1>
+        <h5>Build for developer</h5>
+        <p>Landkit is build to make your life easier.
+            variable. build tooling, documentation, and
+              reusablecomponents</p>
+       </div>
+       <div class="col-md-3 text-center">
+      
+        <h1><i class="bi bi-easel-fill text-danger"></i></h1>
+        <h5>Build for developer</h5>
+        <p>Landkit is build to make your life easier.
+            variable. build tooling, documentation, and
+              reusablecomponents</p>
+       </div>
+       <div class="col-md-3 text-center">
+        
+        <h1><i class="bi bi-calendar-range-fill text-success"></i></h1>
+        <h5>Build for developer</h5>
+        <p>Landkit is build to make your life easier.
+            variable. build tooling, documentation, and
+              reusablecomponents</p>
+       </div>
+   </div>
+
+
+   <!--line-->
+
+
+   <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card-body d-flex flex-column align-items-start">
+          <section id="about" class="about"></section>
+          <strong class="d-inline-block mb-2 text-primary">Blog</strong>
+          <h3 class="mb-0">
+            <a class="text-dark" href="#">Latest post</a>
+          </h3>
+          <div class="mb-1 text-muted">Nov</div>
+          <p class="card-text mb-auto">Responsive Margin built with Bootstrap 5. MDB includes a wide range of shorthand responsive margin utility classes tomodify an element’s appearance.</p>
+          <a href="#">Continue reading</a>
+        </div>
+        <img class="rounded-circle" src="img/bgnew.png" alt="Generic placeholder image" width="140" height="140">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card-body d-flex flex-column align-items-start">
+          <strong class="d-inline-block mb-2 text-success">Design</strong>
+          <h3 class="mb-0">
+            <a class="text-dark" href="#">Development Design</a>
+          </h3>
+          <div class="mb-1 text-muted">Nov</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Continue reading</a>
+        </div>
+        <img class="rounded-circle" src="img/bgnew1.png" alt="Generic placeholder image" width="140" height="140">
+      </div>
+    </div>
+  </div>
+
+
+
+
+   <hr>
+   
+
+
+   <!--growth-->
+
+
+   <div class="row justify-content-evenly pt-3 pb-5">
+       <div class="col-md-5 pt-3">
+        <img src="img/bg5.png" class="img-fluid" alt="">
+       </div>
+       <div class="col-md-5 pt-3">
+       <h5 class="mt-3">Website Development</h5>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          
+          <h5 class="mt-3">App Development</h5>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+
+          <h5 class="mt-3">Software Development</h5>
+
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+
+          <h5 class="mt-3">SEO</h5>
+
+
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+
+          <h5 class="mt-3">Marketing</h5>
+          <div class="progress">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+
+       </div>
+   </div>
+
+
+   <!--contact-->
+
+
+   <div class="row justify-content-evenly pt-2 pb-5" style="background-color:#f1f1f1">
+       <div class="col-md-5 mt-5">
+        <section id="Contact" class="Contact"></section>
+           <h3 class="mb-4">Contact Form</h3>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Number</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>  
+       </div>
+       <div class="col-md-5 mt-5">
+           <h3 class="mb-4">Address</h3>
+           <p>A/14, Amaritpuri Near- ISKCON Temple East of kailash<br>
+            New Delhi-110065<br>
+            <i class="bi bi-telephone"></i> : 821-085-5176
+            </p>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d876.1123677838208!2d77.25332803281204!3d28.556262836209793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce254b22ae79f%3A0xf25771c34bfa1ebf!2sISKCON%20Temple%20Delhi-Glory%20Of%20India%20%26%20Vedic%20Cultural%20Centre%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1644774455433!5m2!1sen!2sin" style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </div>
+   </div>
+
+
+
+   <div class="container">
+    <div class="text-center">
+        <div class="nav price-tabs my-4" role="tablist">
+            <a class="nav-link active" href="#yearly" role="tab" data-toggle="tab">Yearly</a>
+            <a class="nav-link" href="#monthly" role="tab" data-toggle="tab">Monthly</a>
+        </div>
+    </div>
+    <div class="tab-content wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <div role="tabpanel" class="tab-pane fade show active" id="yearly">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-30">
+                    <div class="price-item text-center">
+                        <div class="price-top">
+                            <h4>Basic to Advance</h4>
+                            <h2 class="mb-0"><sup>$</sup>50</h2>
+                            <span class="text-capitalize">Three months</span>
+                        </div>
+                        <div class="price-content">
+                            <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Core java</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Advance java</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Mobile application</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Manual Testing</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Selenium</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>White Box Testing</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-custom">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-30">
+                    <div class="price-item text-center popular">
+                        <div class="price-top">
+                            <h4>Basic to Advance</h4>
+                            <h2 class="mb-0"><sup>$</sup>40</h2>
+                            <span class="text-capitalize">six months</span>
+                        </div>
+                        <div class="price-content">
+                            <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Eget erovtiu faucid</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Cras justo odio</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Morbi leo risus</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Porta consectetur ac</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span> Vestibulum at eros</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Adipisci atque beatae</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-custom btn-light">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-30">
+                    <div class="price-item text-center">
+                        <div class="price-top">
+                            <h4>Basic to Advance</h4>
+                            <h2 class="mb-0"><sup>$</sup>30</h2>
+                            <span class="text-capitalize">one year</span>
+                        </div>
+                        <div class="price-content">
+                            <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Eget erovtiu faucid</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Cras justo odio</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Morbi leo risus</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Porta consectetur ac</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span> Vestibulum at eros</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Adipisci atque beatae</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-custom">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="monthly">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-30">
+                    <div class="price-item text-center">
+                        <div class="price-top">
+                            <h4>Personal</h4>
+                            <h2 class="mb-0"><sup>$</sup>29</h2>
+                            <span class="text-capitalize">per month</span>
+                        </div>
+                        <div class="price-content">
+                            <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Eget erovtiu faucid</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Cras justo odio</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Morbi leo risus</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Porta consectetur ac</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span> Vestibulum at eros</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Adipisci atque beatae</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-custom">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-30">
+                    <div class="price-item text-center popular">
+                        <div class="price-top">
+                            <h4>Business</h4>
+                            <h2 class="mb-0"><sup>$</sup>59</h2>
+                            <span class="text-capitalize">per month</span>
+                        </div>
+                        <div class="price-content">
+                            <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Eget erovtiu faucid</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Cras justo odio</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Morbi leo risus</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Porta consectetur ac</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span> Vestibulum at eros</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Adipisci atque beatae</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-custom btn-light">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-30">
+                    <div class="price-item text-center">
+                        <div class="price-top">
+                            <h4>Enterprise</h4>
+                            <h2 class="mb-0"><sup>$</sup>99</h2>
+                            <span class="text-capitalize">per month</span>
+                        </div>
+                        <div class="price-content">
+                            <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Eget erovtiu faucid</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Cras justo odio</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-check mr-2"></i>
+                                    <span class="c-black">Morbi leo risus</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Porta consectetur ac</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span> Vestibulum at eros</span>
+                                </li>
+                                <li>
+                                    <i class="zmdi zmdi-close mr-2"></i>
+                                    <span>Adipisci atque beatae</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-custom">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <!--faq-->
+   <div class="row justify-content-evenly pt-5 pb-5">
+       <div class="col-md-10">
+        <section id="FAQ" class="FAQ"></section>
+           <h3 class="text-center pb-4">FAQ</h3>
+
+
+           <div class="accordion accordion-flush border" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Product Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Product Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Product Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+       </div>
+
+
+   </div>
+
+
+   <!--footer-->
+
+   
+   <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+      <!-- Content -->
+      <div class="container">
+      <h6 class="text-uppercase fw-bold my-4">
+        <i class="fas fa-gem me-3 text-secondary"></i>Company name
+      </h6>
+      <p>
+        Here you can use rows and columns to organize your footer content. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit.
+      </p></div>
+    </div>
+       <div class="col md-3 pt-4 text-center"> 
+       <h5 class="pb-2">PRODUCTS</h5>
+       <p>Wifi Touch Switches<br> 
+        Modular Touch Switch<br>
+        Sensors<br>
+        RF Remote control<br>
+        Water Level Controller<br>
+        Security Equipments<br>
+        Research Development</p>
+       </div>
+       
+       <div class="col md-3 pt-4 text-center">
+           <h5 class="pb-2">IMPORTANT LINKS</h5>
+           <p>
+               <a href="#" class="link-light text-decoration-none">Home</a><br>
+               <a href="#" class="link-light text-decoration-none">About Us</a><br>
+               <a href="#Contact Us" class="link-light text-decoration-none">Contact Us</a><br>
+               <a href="#" class="link-light text-decoration-none">Our Team</a><br>
+               <a href="#" class="link-light text-decoration-none">Our Client</a><br>
+           </p>
+       </div>
+       
+       <div class="col-md-3 col-sm-12 my-4">
+        <h5 class="pb-2">Contact Us</h5>
+        
+        <p>
+          <i class="bi bi-geo-alt"></i>A/14, Amaritpuri<br>
+          Near- ISKCON Temple<br>
+          East of kailash<br>
+          New Delhi-110065<br>
+            
+             
+            <i class="bi bi-envelope"> : manish.kum1703@gmail.com</i><br> 
+            <i class="bi bi-phone"></i>  : 821-085-5176
+        </p>
+       </div>
+
+
+   </div>
+
+
+   <!--copyright-->
+   <div class="row bg-secondary text-white text-center p-2">
+       <div class="col-12">
+           <p>Copyright © 2021 | Opotronics Pvt. Ltd. | All Rights Reserved.</p>
+       </div>
+   </div>
+
+
+   <!--container end-->
+  </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    
+  </body>
+</html>
+
+
